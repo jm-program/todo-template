@@ -8,7 +8,11 @@
     <section class="todoapp">
       <header class="header">
         <h1>todos</h1>
-        <input class="new-todo" placeholder="What needs to be done?" autofocus>
+        <form class="new-todo-form">
+          <input class="new-todo" placeholder="Task" autofocus>
+          <input class="new-todo-form__timer" placeholder="Min" autofocus>
+          <input class="new-todo-form__timer" placeholder="Sec" autofocus>
+        </form>
       </header>
       <section class="main">
         <ul class="todo-list">
@@ -16,8 +20,13 @@
             <div class="view">
               <input class="toggle" type="checkbox">
               <label>
-                <span class="description">fw</span>
-                <span class="created">created 17 seconds ago</span>
+                <span class="title">fw</span>
+                <span class="description">
+                  <button class="icon icon-play"></button>
+                  <button class="icon icon-pause"></button>
+                  12:25
+                </span>
+                <span class="description">created 17 seconds ago</span>
               </label>
               <button class="icon icon-edit"></button>
               <button class="icon icon-destroy"></button>
@@ -27,8 +36,13 @@
             <div class="view">
               <input class="toggle" type="checkbox">
               <label>
-                <span class="description">fw</span>
-                <span class="created">created 5 minutes ago</span>
+                <span class="title">fw</span>
+                <span class="description">
+                  <button class="icon icon-play"></button>
+                  <button class="icon icon-pause"></button>
+                  12:25
+                </span>
+                <span class="description">created 5 minutes ago</span>
               </label>
               <button class="icon icon-edit"></button>
               <button class="icon icon-destroy"></button>
@@ -39,8 +53,13 @@
             <div class="view">
               <input class="toggle" type="checkbox">
               <label>
-                <span class="description">fw</span>
-                <span class="created">created 5 minutes ago</span>
+                <span class="title">fw</span>
+                <span class="description">
+                  <button class="icon icon-play"></button>
+                  <button class="icon icon-pause"></button>
+                  12:25
+                </span>
+                <span class="description">created 5 minutes ago</span>
               </label>
               <button class="icon icon-edit"></button>
               <button class="icon icon-destroy"></button>
